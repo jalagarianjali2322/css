@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+
+    #container{
+        display: flex;
+    }
+    #secondcontainer{
+        display: flex;
+    }
+    #first{
+        width:400px;
+        height:150px;
+        background-color: rgb(245, 123, 245);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px;
+        
+        
+    }
+    input{
+        border-radius: 50px;
+        background-color: black;
+        color:rgb(249, 236, 236);
+    }
+    #second{
+        width:400px;
+        height:150px;
+        background-color:rgb(200, 200, 22);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-top: 50px;
+        
+    }
+    #third{
+        width:400px;
+        height:150px;
+        background-color: rgb(192, 116, 116);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px;
+        
+        
+        
+    }
+    #forth{
+        width:400px;
+        height:150px;
+        background-color:rgb(42, 124, 206);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:100px;
+    }
+    #thirdcontainer{
+        display: flex;
+    }
+    #fifth{
+        width:400px;
+        height:150px;
+        background-color:rgb(13, 155, 89);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px;
+    }
+    #sixth{
+        width:400px;
+        height:150px;
+        background-color:rgb(231, 15, 174);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:100px; 
+    }
+    #forthcontainer{
+        display: flex;
+    }
+    #seventh{
+        width:400px;
+        height:60px;
+        background-color: rgb(121, 133, 202);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px;
+    }
+    #eighth{
+        width:400px;
+        height:60px;
+        background-color:rgb(244, 230, 113);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:100px;      
+    }
+    #smallcontainer{
+        display: flex;
+    }
+    #one{
+        height:50px;
+        width:150px;
+        background-color: rgb(173, 106, 106);
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #two{
+        height:50px;
+        width:150px;
+        background-color:#468265;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #three{
+        height:50px;
+        width:150px;
+        background-color:  #319898;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #four{
+        height:50px;
+        width:150px;
+        background-color: rgb(94, 57, 63);
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallsecondcontainer{
+        display: flex;
+    }
+    #ones{
+        height:50px;
+        width:150px;
+        background-color: rgb(137, 137, 5);
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twos{
+        height:50px;
+        width:150px;
+        background-color: rgb(144, 117, 117);
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threes{
+        height:50px;
+        width:150px;
+        background-color:#ccffe6;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #fours{
+        height:50px;
+        width:150px;
+        background-color:  #6d9c9c;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallthirdcontainer{
+        display: flex;
+    }  #oness{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twoss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threess{
+        height:50px;
+        width:150px;
+        background-color: lightgrey;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #fourss{
+        height:50px;
+        width:150px;
+        background-color: #ccffe6;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+
+    #smallforthcontainer{
+        display: flex;
+    }
+    #onesss{
+        height:50px;
+        width:150px;
+        background-color: #1affff;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twosss{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threesss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #foursss{
+        height:50px;
+        width:150px;
+        background-color: lightgrey;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallfifthcontainer{
+        display: flex;
+    }
+    #onessss{
+        height:50px;
+        width:150px;
+        background-color: #d6d6c2;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twossss{
+        height:50px;
+        width:150px;
+        background-color: #1affff;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threessss{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #fourssss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallsixthcontainer{
+        display: flex;
+    }
+    #onesssss{
+        height:50px;
+        width:150px;
+        background-color: lightgrey;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twosssss{
+        height:50px;
+        width:150px;
+        background-color: #d6d6c2;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threesssss{
+        height:50px;
+        width:150px;
+        background-color: #1affff;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #foursssss{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallseventhcontainer{
+        display: flex;
+    }
+    #onessssss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twossssss{
+        height:50px;
+        width:150px;
+        background-color: lightgray;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threessssss{
+        height:50px;
+        width:150px;
+        background-color: #d6d6c2;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #fourssssss{
+        height:50px;
+        width:150px;
+        background-color: #1affff;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smalleighthcontainer{
+        display: flex;
+    }
+    #onesssssss{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twosssssss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threesssssss{
+        height:50px;
+        width:150px;
+        background-color: lightgray;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #foursssssss{
+        height:50px;
+        width:150px;
+        background-color:#d6d6c2;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smallningthcontainer{
+        display: flex;
+    }
+    #onessssssss{
+        height:50px;
+        width:150px;
+        background-color: #3c3ca6;;
+        margin-left:300px;
+        margin-top:50px;
+        padding: 50px;
+    }
+    #twossssssss{
+        height:50px;
+        width:150px;
+        background-color: lightpink;
+        margin-left:100px;
+        margin-top: 50px;
+        padding: 50px;
+    }
+    #threessssssss{
+        height:50px;
+        width:150px;
+        background-color: lightyellow;
+            margin-left: 100px;
+            margin-top: 50px;
+            padding: 50px;
+    }
+    #fourssssssss{
+        height:50px;
+        width:150px;
+        background-color: lightgray;
+        margin-top: 50px;
+        margin-left: 100px;
+        padding:50px;
+        
+    }
+    #smalltenthcontainer{
+        display: flex;
+    }
+    #last{
+        
+        width:400px;
+        height:60px;
+        background-color: #1cc45a;
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px; 
+    }
+    #lastone{
+        width:400px;
+        height:60px;
+        background-color:rgb(221, 79, 23);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:100px;   
+       
+    }
+    
+    
+    #smalleleventhcontainer{
+        display: flex;
+    }
+    #least{
+       
+        width:400px;
+        height:60px;
+        background-color: rgb(193, 90, 105);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:300px;
+    }
+    #leastone{
+       
+        width:400px;
+        height:60px;
+        background-color:rgb(215, 22, 215);
+        padding-left:200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-left:100px;   
+    }
+    
+    
+   </style>
+</head>
+<body>
+    <div id="container">
+    <div id="first">
+        <h1>PHP</h1>
+        <b> A webserver programming language</b><br><br>
+        <input type="button" value="Learn PHP" >
+
+    </div>
+    <div id="second">
+        <h1>jQuery</h1>
+        <b> A JS library for developing web pages</b><br><br>
+        <input type="button" value="Learn jQuery" >
+
+    </div><br><br>
+   
+</div>
+<div id="secondcontainer">
+<div id="third">
+    <h1>Java</h1>
+    <b> A Programming Language</b><br><br>
+    <input type="button" value="Learn Java" >
+
+</div>
+<div id="forth">
+    <h1>C++</h1>
+    <b> A Programming Language</b><br><br>
+    <input type="button" value="Learn C++" >
+</div>
+</div>
+<div id="thirdcontainer">
+    <div id="fifth">
+        <h1>W3.CSS</h1>
+        <b> A CSS framework for faster and better responsive web pages</b><br><br>
+        <input type="button" value="Learn w3.css" >
+    
+    </div>
+    <div id="sixth">
+        <h1>Bootstrap</h1>
+        <b> A CSS framework for designing better web pages</b><br><br>
+        <input type="button" value="Learn Bootstrap " >
+    </div>
+    </div>
+    <div id="forthcontainer">
+        <div id="seventh">
+            <h1>C</h1>
+         </div>
+        <div id="eighth">
+            <h1>C#</h1>
+            
+        </div>
+        </div>
+        <div id="smallcontainer">
+            <div id="one"><h1>R</h1></div>
+            <div id="two"><h1>Kotlin</h1></div>
+            <div id="three"><h1>Node.js</h1></div>
+            <div id="four"><h1>React</h1></div>
+            
+        </div>
+        <div id="smallsecondcontainer">
+            <div id="ones"><h1>Json</h1></div>
+            <div id="twos"><h1>Vue</h1></div>
+            <div id="threes"><h1>Mysql</h1></div>
+            <div id="fours"><h1>XML</h1></div>
+            
+        </div>
+        <div id="smallthirdcontainer">
+            <div id="oness"><h1>Sass</h1></div>
+            <div id="twoss"><h1>Icons</h1></div>
+            <div id="threess"><h1>RWD</h1></div>
+            <div id="fourss"><h1>Graphs</h1></div>
+            
+        </div>
+        <div id="smallforthcontainer">
+            <div id="onesss"><h1>SVG</h1></div>
+            <div id="twosss"><h1>Canvas</h1></div>
+            <div id="threesss"><h1>RasberryPi</h1></div>
+            <div id="foursss"><h1>CyberSecurity</h1></div>
+            
+        </div>
+        <div id="smallfifthcontainer">
+            <div id="onessss"><h1>Colors</h1></div>
+            <div id="twossss"><h1>Git</h1></div>
+            <div id="threessss"><h1>Matplotlib</h1></div>
+            <div id="fourssss"><h1>Numphy</h1></div>
+            
+        </div>
+        <div id="smallsixthcontainer">
+            <div id="onesssss"><h1>Pandas</h1></div>
+            <div id="twosssss"><h1>Scipy</h1></div>
+            <div id="threesssss"><h1>ASP</h1></div>
+            <div id="foursssss"><h1>AngularJs</h1></div>
+            
+        </div>
+        <div id="smallseventhcontainer">
+            <div id="onessssss"><h1>AppMl</h1></div>
+            <div id="twossssss"><h1>Go</h1></div>
+            <div id="threessssss"><h1>TypeScript</h1></div>
+            <div id="fourssssss"><h1>Django</h1></div>
+            
+        </div>
+        <div id="smalleighthcontainer">
+            <div id="onesssssss"><h1>MongoDB</h1></div>
+            <div id="twosssssss"><h1>Statistics</h1></div>
+            <div id="threesssssss"><h1>DataScience</h1></div>
+            <div id="foursssssss"><h1>TypingSpeed</h1></div>
+            
+        </div>
+        <div id="smallningthcontainer">
+            <div id="onessssssss"><h1>Howto</h1></div>
+            <div id="twossssssss"><h1>CodeGame</h1></div>
+            <div id="threessssssss"><h1>Spaces</h1></div>
+            <div id="fourssssssss"><h1>PostgreeSQL</h1></div>
+            
+        </div>
+        <div id="smalltenthcontainer">
+            <div id="last"><h1>Exel</h1></div>
+            <div id="lastone"><h1>DSA</h1></div>
+    </div>
+        <div id="smalleleventhcontainer">
+            <div id="least"><h1>Machine Leaening</h1></div>
+            <div id="leastone"><h1>Artificial Intelligence</h1></div>
+            
+            
+            
+        </div>
+        
+        
+
+</body>
+</html>
